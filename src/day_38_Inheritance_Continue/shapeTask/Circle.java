@@ -9,8 +9,8 @@ public class Circle extends Shape{
         pi = 3.14;
     }
 
-    public Circle(String name, double radius) {
-        super(name);
+    public Circle( double radius) {
+        super("Circle");
         this.radius = radius;
     }
 
@@ -23,10 +23,10 @@ public class Circle extends Shape{
 
     public String toString(){
         return "Name: "+name+
-                "Radius: "+radius+
-                "Pi: "+pi+
-                "Area: "+area()+
-                "Perimeter: "+perimeter();
+                ", Radius: "+radius+
+                ", Pi: "+pi+
+                ", Area: "+area()+
+                ", Perimeter: "+perimeter();
     }
 
 }

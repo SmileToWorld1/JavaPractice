@@ -16,8 +16,8 @@ public class Shape {
     }
     public String toString(){
         return "Name: "+name+
-                "Area: "+area()+
-                "Perimeter: "+perimeter();
+                ", Area: "+area()+
+                ", Perimeter: "+perimeter();
     }
 
 }
