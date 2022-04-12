@@ -11,6 +11,16 @@ public class Rectangle extends Shape{
         this.width = width;
     }
 
+    @Override
+    public double area() {
+        return length*width;
+    }
+
+    @Override
+    public double perimeter() {
+        return 2*(length+width);
+    }
+
     public String toString(){
         return "Name: "+name+
                 ", Length: "+length+

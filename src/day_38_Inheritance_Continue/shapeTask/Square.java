@@ -9,6 +9,16 @@ public class Square extends Shape{
         this.size =size;
     }
 
+    @Override
+    public double area() {
+        return  size*size;
+    }
+
+    @Override
+    public double perimeter() {
+        return 4*size;
+    }
+
     public String toString(){
         return "Name: "+name+
                 ", Size: "+size+
