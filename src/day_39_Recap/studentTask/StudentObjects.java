@@ -11,7 +11,7 @@ public class StudentObjects {
         cydeoStudent.drink();
         cydeoStudent.sleep();
         cydeoStudent.study();
-       
+
 
     }
 }
